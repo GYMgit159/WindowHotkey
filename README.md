@@ -114,7 +114,7 @@
       "vk": 90,
       "mouse_btn": 0,
       "display": "Ctrl + Alt + Z",
-      "path": "D:\\\\Microsoft VS Code\\\\Code.exe"
+      "path": "D:\\Microsoft VS Code\\Code.exe"
     }
   ]
 }
