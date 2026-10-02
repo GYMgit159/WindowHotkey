@@ -26,7 +26,7 @@ import win32process
 
 APP_NAME = "WindowHotkey"
 APP_CN_NAME = "窗口快捷键"
-APP_VERSION = "2.0.0"
+APP_VERSION = "2.0.1"
 
 CONFIG_DIR = os.path.join(os.getenv("APPDATA", "."), APP_NAME)
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
@@ -502,7 +502,7 @@ class HotkeyManager:
 # ──────────────────────────────────────────────
 
 class Entry:
-    __slots__ = ("hid", "hwnd", "title", "exe", "path", "mod_flags", "vk",
+    __slots__ = ("hid", "hwnd", "title", "exe", "mod_flags", "vk",
                  "mouse_btn", "display")
 
     def __init__(self, hid, hwnd, title, exe, mod_flags, vk, mouse_btn, display,
