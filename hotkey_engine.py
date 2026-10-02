@@ -502,7 +502,7 @@ class HotkeyManager:
 # ──────────────────────────────────────────────
 
 class Entry:
-    __slots__ = ("hid", "hwnd", "title", "exe", "mod_flags", "vk",
+    __slots__ = ("hid", "hwnd", "title", "exe", "path", "mod_flags", "vk",
                  "mouse_btn", "display")
 
     def __init__(self, hid, hwnd, title, exe, mod_flags, vk, mouse_btn, display,
